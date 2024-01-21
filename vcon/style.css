@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    
+   
+}
+body{animation:animateBg 5s linear infinite;}
+
+/* General styles */
+h1{
+  margin:10px;
+  background: transparent;
+  padding:10px;
+  border:1px  solid;
+  backdrop-filter: blur(100px);
+  text-align: center;
+  
+  
+  
+}
+h1:hover{
+  border-radius:99%;
+  transition:all 5s;
+  backdrop-filter:blur(100px);
+ 
+
+}
+
+body  {
+    font-family: Arial, sans-serif;
+    background-image: url("book.jpg");
+    animation:animateBg 5s linear infinite;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: bisque;
+   
+   
+  
+      }
+      .container{
+        margin:10%;
+        border:2px solid ;
+        border-radius:10%;
+        background:transparent;
+        backdrop-filter: blur(15px);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        animation:animateBg 5s linear infinite;
+
+
+
+      }
+  
+div ul{
+  background: transparent;
+    padding: 120px  ;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    row-gap: 5em;
+    column-gap: 5em;
+
+    
+}
+  
+div li a{
+    text-decoration: none;
+    text-align: center;
+    color:rgb(2, 9, 9);
+  }
+  div li a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+
+    
+  }
+  div ul li:hover{
+    background-color: antiquewhite;
+    backdrop-filter: blur(100px);
+    transition: all 1s;
+    border-radius: 50%;
+  
+  }
+.CAT{
+  text-decoration: none;
+  text-align: center;
+  padding-top:40px;
+  font-size: larger;
+  border-radius: 15px;
+  width: 100px;
+  height:100px;
+  background-color:rgba(233, 151, 43, 0.929);
+   backdrop-filter:blur(55px);
+ 
+}
+  .GRE{
+    text-decoration: none;
+  text-align: center;
+  padding-top:40px;
+  font-size: larger;
+  border-radius: 15px;
+  width: 100px;
+  height:100px;
+  background-color:rgba(233, 151, 43, 0.929);
+ backdrop-filter: blur(25px);
+   }
+  .IELTS{
+    text-decoration: none;
+  text-align: center;
+  padding-top:40px;
+  font-size: larger;
+  border-radius: 15px;
+  width: 100px;
+  height:100px;
+  background-color:rgba(233, 151, 43, 0.929);
+  backdrop-filter: blur(25px);
+  }
+  .IAS{
+    text-decoration: none;
+    text-align: center;
+    padding-top:40px;
+    font-size: larger;
+    border-radius: 15px;
+    width: 100px;
+    height:100px;
+    background-color:rgba(233, 151, 43, 0.929);
+    backdrop-filter:blur(15px);
+  }
